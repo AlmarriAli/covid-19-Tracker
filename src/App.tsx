@@ -7,10 +7,10 @@ import WorldDataContextProvider from './contexts/worldCasesContext';
 function App() {
   return (
     <WorldDataContextProvider>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      <div className="App container-fluid">
         <HomePage></HomePage>
       </div>
     </WorldDataContextProvider>
