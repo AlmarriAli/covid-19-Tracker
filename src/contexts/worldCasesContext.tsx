@@ -1,10 +1,11 @@
 import { Children, createContext, useEffect, useState } from "react"
+import SkeletonBase from "../components/baseComponents/SkeletonBase";
 import { IWorldData } from "../interfaces/worldData";
 
 export const WorldDataContext = createContext({});
 
 const WorldDataContextProvider = (props: any) => {
-    const [worldData, setWorldData] = useState([])
+    const [worldData, setWorldData] = useState({})
     const [isLoading, setIsLoading] = useState(false)
 
     const WorldDataurl = "https://corona.lmao.ninja/v2/all"
@@ -14,17 +15,26 @@ const WorldDataContextProvider = (props: any) => {
         const data = await res.json();
         console.log("DATA Fetched ::>>>>", data)
         setWorldData(data)
+        console.log("world data length", worldData)
         return data
     }
     useEffect(() => {
         setIsLoading(true)
         fetchData()
-        worldData.length > 0 ? setIsLoading(false) : setIsLoading(true)
+        setTimeout(() => {
+            worldData ? setIsLoading(false) : setIsLoading(true)
+
+        }, 5000)
+
     }, [])
+
 
     const { children } = props
     return (
-        <WorldDataContext.Provider value={worldData}> {children} </WorldDataContext.Provider>
+        <WorldDataContext.Provider value={worldData}>
+            {isLoading ? <SkeletonBase /> : children}
+
+        </WorldDataContext.Provider>
     )
 
 

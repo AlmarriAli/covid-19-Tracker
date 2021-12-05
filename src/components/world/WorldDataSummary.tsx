@@ -1,3 +1,4 @@
+import { Grid } from "@mui/material";
 import { useContext } from "react"
 import { WorldDataContext } from "../../contexts/worldCasesContext"
 import { IWorldData } from "../../interfaces/worldData";
@@ -7,7 +8,15 @@ const WorldDataSummary = () => {
     console.log("worldData", worldData);
 
     return (
-        <> World Data  = {worldData.updated} </>
+        <>
+            <Grid>
+                <Grid item xs={8} bg-dark>
+                    {worldData.updated}
+                </Grid>
+
+            </Grid>
+
+        </>
 
     )
 }

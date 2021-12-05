@@ -1,0 +1,77 @@
+[
+    {
+        "_id": "61aa721712723699d40eb5a8",
+        "uid": 84036061,
+        "country_iso2": "US",
+        "country_iso3": "USA",
+        "country_code": 840,
+        "fips": 36061,
+        "county": "New York",
+        "state": "New York",
+        "country": "US",
+        "combined_name": "New York, New York, US",
+        "population": 1628706,
+        "loc": {
+            "type": "Point",
+            "coordinates": [
+                -73.9715,
+                40.7673
+            ]
+        },
+        "date": "2020-04-25T00:00:00.000Z",
+        "confirmed": 19633,
+        "deaths": 1754,
+        "confirmed_daily": 400,
+        "deaths_daily": 42
+    },
+    {
+        "_id": "61aa721712723699d40eb5a9",
+        "uid": 84036061,
+        "country_iso2": "US",
+        "country_iso3": "USA",
+        "country_code": 840,
+        "fips": 36061,
+        "county": "New York",
+        "state": "New York",
+        "country": "US",
+        "combined_name": "New York, New York, US",
+        "population": 1628706,
+        "loc": {
+            "type": "Point",
+            "coordinates": [
+                -73.9715,
+                40.7673
+            ]
+        },
+        "date": "2020-04-26T00:00:00.000Z",
+        "confirmed": 20043,
+        "deaths": 1788,
+        "confirmed_daily": 410,
+        "deaths_daily": 34
+    },
+    {
+        "_id": "61aa721712723699d40eb5aa",
+        "uid": 84036061,
+        "country_iso2": "US",
+        "country_iso3": "USA",
+        "country_code": 840,
+        "fips": 36061,
+        "county": "New York",
+        "state": "New York",
+        "country": "US",
+        "combined_name": "New York, New York, US",
+        "population": 1628706,
+        "loc": {
+            "type": "Point",
+            "coordinates": [
+                -73.9715,
+                40.7673
+            ]
+        },
+        "date": "2020-04-27T00:00:00.000Z",
+        "confirmed": 20458,
+        "deaths": 1817,
+        "confirmed_daily": 415,
+        "deaths_daily": 29
+    }
+]
