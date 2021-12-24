@@ -9,6 +9,8 @@ import DashBoardPage from './pages/DashBoardPage';
 import CountriesPage from './pages/CountriesPage';
 import RegionsPage from './pages/RegionsPage';
 import CountryDetails from './components/countries/CountryDetails';
+import CountriesContextProvider from './contexts/countriesContext';
+import CountryDetailsProvider from './contexts/CountryDetailsContext';
 
 
 
@@ -29,18 +31,19 @@ function App() {
       <BrowserRouter>
         <Header />
         <WorldDataContextProvider>
-
-          <div className="App container-fluid">
-            <Routes>
-              <Route path={routes.home.path} element={<HomePage />}>  </Route>
-              <Route path={routes.dashobard.path} element={<DashBoardPage />}>  </Route>
-              <Route path={routes.regions.path} element={<RegionsPage />}>  </Route>
-              <Route path={routes.countries.path} element={<CountriesPage />}>  </Route>
-              <Route path={routes.countryDetails.path} element={<CountryDetails />}>  </Route>
-
-            </Routes>
-
-          </div>
+          <CountriesContextProvider>
+            <CountryDetailsProvider>
+              <div className="App container-fluid">
+                <Routes>
+                  <Route path={routes.home.path} element={<HomePage />}>  </Route>
+                  <Route path={routes.dashobard.path} element={<DashBoardPage />}>  </Route>
+                  <Route path={routes.regions.path} element={<RegionsPage />}>  </Route>
+                  <Route path={routes.countries.path} element={<CountriesPage />}>  </Route>
+                  <Route path={routes.countryDetails.path} element={<CountryDetails />}>  </Route>
+                </Routes>
+              </div>
+            </CountryDetailsProvider>
+          </CountriesContextProvider>
         </WorldDataContextProvider >
       </BrowserRouter>
     </>
