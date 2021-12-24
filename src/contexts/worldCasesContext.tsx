@@ -13,9 +13,7 @@ const WorldDataContextProvider = (props: any) => {
     const fetchData = async (): Promise<IWorldData> => {
         const res = await fetch(WorldDataurl)
         const data = await res.json();
-        console.log("DATA Fetched ::>>>>", data)
         setWorldData(data)
-        console.log("world data length", worldData)
         return data
     }
     useEffect(() => {
@@ -24,7 +22,7 @@ const WorldDataContextProvider = (props: any) => {
         setTimeout(() => {
             worldData ? setIsLoading(false) : setIsLoading(true)
 
-        }, 5000)
+        }, 1000)
 
     }, [])
 
