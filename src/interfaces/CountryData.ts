@@ -5,6 +5,22 @@ export interface Icalculated {
     "cases_per_million_population": number
 }
 
+export interface ITimelineData {
+
+    "updated_at": string,
+    "date": string,
+    "deaths": number,
+    "confirmed": number,
+    "recovered": number,
+    "new_confirmed": number,
+    "new_recovered": number,
+    "new_deaths": number,
+    "active": number
+
+
+}
+
+
 export interface ILatest_Data {
 
     "deaths": number,
@@ -23,7 +39,8 @@ export interface IData {
     "population": number,
     "updated_at": string,
     "today": object,
-    "latest_data": ILatest_Data
+    "latest_data": ILatest_Data,
+    "timeline"?: Array<ITimelineData>
 }
 
 export interface ICountrydata {
