@@ -79,7 +79,7 @@ const CountrySummary = (props: CountrySummaryProps) => {
 
 
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, m: 2, boxShadow: 1 }} className="bg-light text-info"  >
 
             {isloadindChart ? <CircularProgress color="inherit" /> : <Bar options={chartOptions} data={data} > </Bar>}
 

@@ -8,8 +8,8 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const WorldPieChart = () => {
     const worldData: IWorldData = useContext(WorldDataContext)
-    const mapLabels = ["cases", "deaths", "recovered", "active"];
-    const mapData = [worldData.cases, worldData.deaths, worldData.recovered, worldData.active]
+    const mapLabels = ["cases", "deaths", "recovered"];
+    const mapData = [worldData.cases, worldData.deaths, worldData.recovered]
 
     const data = {
         labels: mapLabels,
@@ -18,10 +18,10 @@ const WorldPieChart = () => {
                 label: ' World Cases',
                 data: mapData,
                 backgroundColor: [
+                    'rgb(228 173 237)',
                     'rgb(255, 99, 132)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgb(54, 162, 235)',
-                    'rgb(255, 205, 86)',
+                    'rgb(13 202 240)',
+
                 ],
                 borderWidth: 1
             }

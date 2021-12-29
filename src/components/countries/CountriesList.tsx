@@ -23,7 +23,7 @@ const CountriesList = (): ReactElement => {
 
     return (
         <> <h3 className="text-center text-info">Countries List</h3>
-            <Grid container justifyContent="center" direction="row">
+            <Grid container justifyContent="center" direction="row" m={2}>
                 <Grid item md={8} sm={12} xs={12} className="border">
                     <SearchcountriesForm handleSearch={handleSearch} />
                 </Grid>

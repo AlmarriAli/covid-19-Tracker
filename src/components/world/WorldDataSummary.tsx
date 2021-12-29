@@ -12,37 +12,41 @@ const WorldDataSummary = () => {
     return (
         <>
 
-            <Grid container >
+            <Grid container className="bg-dark text-primary" >
                 <Grid item md={12} sm={12} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Total Cases </h3>
-                        {worldData.cases}
+                        <Box sx={{ color: 'info.main' }}>  {worldData.cases}</Box>
                     </Box>
                 </Grid>
                 <Grid item md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Active  Cases</h3>
-                        {worldData.active}
+                        <Box sx={{ color: 'info.main' }}>   {worldData.active}
+                        </Box>
                     </Box>
 
                 </Grid>
                 <Grid md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Today Cases</h3>
-                        {worldData.todayCases}
+                        <Box sx={{ color: 'info.main' }}>   {worldData.todayCases}
+                        </Box>
                     </Box>
 
                 </Grid>
                 <Grid item md={12} sm={12} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Total Recovered </h3>
-                        {worldData.recovered}
+                        <Box sx={{ color: 'info.main' }}>   {worldData.recovered}
+                        </Box>
                     </Box>
                 </Grid>
                 <Grid item md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Today Recovered</h3>
-                        {worldData.todayRecovered}
+                        <Box sx={{ color: 'info.main' }}>  {worldData.todayRecovered}
+                        </Box>
                     </Box>
 
                 </Grid>
@@ -51,21 +55,24 @@ const WorldDataSummary = () => {
                 <Grid md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Today  Recovered </h3>
-                        {worldData.todayRecovered}
+                        <Box sx={{ color: 'info.main' }}>   {worldData.todayRecovered}
+                        </Box>
                     </Box>
 
                 </Grid>
                 <Grid md={12} sm={12} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Total  Deaths </h3>
-                        {worldData.deaths}
+                        <Box sx={{ color: 'info.main' }}>   {worldData.deaths}
+                        </Box>
                     </Box>
 
                 </Grid>
                 <Grid md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
                         <h3> Today  Deaths </h3>
-                        {worldData.todayDeaths}
+                        <Box sx={{ color: 'info.main' }}>   {worldData.todayDeaths}
+                        </Box>
                     </Box>
 
                 </Grid>

@@ -31,18 +31,18 @@ const datasets = [
     {
         type: 'line' as const,
         label: 'Cases',
-        borderColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(13 202 240)',
         borderWidth: 2,
         fill: false,
-        data: [5000, 2000, 4000],
+        data: [5000, 2000, 4000, 3000],
     },
     {
         type: 'line' as const,
         label: 'Deaths',
-        borderColor: 'rgb(255, 200, 102)',
+        borderColor: 'rgb(205 114 221)',
         borderWidth: 2,
         fill: false,
-        data: [100, 200, 3000],
+        data: [100, 200, 3000, 5000],
     }
 
 ]
