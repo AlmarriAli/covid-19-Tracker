@@ -16,7 +16,6 @@ const CountriesContextProvider = (props: any) => {
     const fetchCountriesData = async (): Promise<ICountrydata> => {
         const res = await fetch(ApiUrl);
         const data = await res.json();
-        console.log("countriesData::>>", data)
         setCountriesData(data);
         return data
     }

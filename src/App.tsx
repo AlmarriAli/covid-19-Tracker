@@ -1,7 +1,6 @@
 
 import './App.css';
 import HomePage from './pages/HomePage';
-import { createTheme } from "@mui/material"
 import WorldDataContextProvider from './contexts/worldCasesContext';
 import Header from './components/baseComponents/Main-nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -10,6 +9,7 @@ import CountriesPage from './pages/CountriesPage';
 import RegionsPage from './pages/RegionsPage';
 import CountryDetails from './components/countries/CountryDetails';
 import CountriesContextProvider from './contexts/countriesContext';
+import CountryDetailsProvider from './contexts/CountryDetailsContext';
 
 
 
@@ -18,7 +18,7 @@ const routes = {
   "dashobard": { path: "/dashboard", component: <DashBoardPage /> },
   "countries": { path: "/countries", component: <CountriesPage /> },
   "regions": { path: "/regions", component: <RegionsPage /> },
-  "countryDetails": { path: "/countries/:id", component: <CountryDetails /> },
+  "countryDetails": { path: "/countries/:code", component: <CountryDetails /> },
 
 }
 
@@ -31,15 +31,17 @@ function App() {
         <Header />
         <WorldDataContextProvider>
           <CountriesContextProvider>
-            <div className="App container-fluid">
-              <Routes>
-                <Route path={routes.home.path} element={<HomePage />}>  </Route>
-                <Route path={routes.dashobard.path} element={<DashBoardPage />}>  </Route>
-                <Route path={routes.regions.path} element={<RegionsPage />}>  </Route>
-                <Route path={routes.countries.path} element={<CountriesPage />}>  </Route>
-                <Route path={routes.countryDetails.path} element={<CountryDetails />}>  </Route>
-              </Routes>
-            </div>
+            <CountryDetailsProvider>
+              <div className="App container-fluid">
+                <Routes>
+                  <Route path={routes.home.path} element={<HomePage />}>  </Route>
+                  <Route path={routes.dashobard.path} element={<DashBoardPage />}>  </Route>
+                  <Route path={routes.regions.path} element={<RegionsPage />}>  </Route>
+                  <Route path={routes.countries.path} element={<CountriesPage />}>  </Route>
+                  <Route path={routes.countryDetails.path} element={<CountryDetails />}>  </Route>
+                </Routes>
+              </div>
+            </CountryDetailsProvider>
           </CountriesContextProvider>
         </WorldDataContextProvider >
       </BrowserRouter>

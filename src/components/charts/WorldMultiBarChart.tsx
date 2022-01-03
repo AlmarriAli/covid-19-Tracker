@@ -1,7 +1,6 @@
-import { ReactElement, useContext } from "react"
-import { WorldDataContext } from "../../contexts/worldCasesContext"
-import { IWorldData } from "../../interfaces/worldData"
-// import faker from 'faker';
+import { ReactElement } from "react"
+
+
 import {
     Chart as ChartJS,
     LinearScale,
@@ -52,7 +51,7 @@ const data = {
 }
 
 const WorldMultiBarChart = (): ReactElement => {
-    const worldData: IWorldData = useContext(WorldDataContext)
+
     return (
 
         <><Chart type='bar' data={data} /> </>

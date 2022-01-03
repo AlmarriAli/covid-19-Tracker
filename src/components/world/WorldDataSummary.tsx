@@ -77,8 +77,6 @@ const WorldDataSummary = () => {
 
                 </Grid>
             </Grid>
-
-
         </>
 
     )

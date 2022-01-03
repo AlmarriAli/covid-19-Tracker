@@ -2,7 +2,7 @@ import { ReactElement, useContext, useState } from "react"
 import { CountriesContext } from "../../contexts/countriesContext"
 import { ICountrydata } from "../../interfaces/CountryData"
 import CountrySummary from "./CountrySummary"
-import { Grid, Autocomplete, TextField } from "@mui/material";
+import { Grid } from "@mui/material";
 import SearchcountriesForm from "../forms/SearchCountriesForm";
 
 

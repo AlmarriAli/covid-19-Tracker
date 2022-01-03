@@ -47,3 +47,6 @@ export interface ICountrydata {
     data?: IData[]
 }
 
+export interface ICountryDetails {
+    data: IData
+}

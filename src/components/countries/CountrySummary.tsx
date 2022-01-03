@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 
-import { Typography, CircularProgress, Button } from '@mui/material';
-import useCountryDetails from '../../customhooks/useConuntryDetails';
+
+import { Typography, CircularProgress } from '@mui/material';
+
 import { IData } from '../../interfaces/CountryData';
-import { Bar, Line } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -18,6 +18,7 @@ import {
     Legend, PointElement,
     LineElement,
 } from 'chart.js';
+import { Link } from 'react-router-dom';
 
 
 interface CountrySummaryProps {
@@ -39,7 +40,7 @@ ChartJS.register(
 const CountrySummary = (props: CountrySummaryProps) => {
     const { country } = props;
     const { latest_data: latestData } = country;
-    const [isloadindChart, setIsLoadingChart] = useState(false)
+    const [isloadindChart] = useState(false)
 
     const labels = ["Deaths"];
     const chartOptions = {
@@ -71,7 +72,7 @@ const CountrySummary = (props: CountrySummaryProps) => {
             {
                 label: 'Recovered',
                 data: [latestData.recovered ? latestData.recovered : 0],
-                backgroundColor: 'rgb(62 191 137 / 78%)',
+                backgroundColor: 'rgb(212 140 225)',
             },
 
         ],
@@ -79,22 +80,19 @@ const CountrySummary = (props: CountrySummaryProps) => {
 
 
     return (
-        <Card sx={{ maxWidth: 345, m: 2, boxShadow: 1 }} className="bg-light text-info"  >
+        <Card sx={{ minWidth: 345, m: 2, boxShadow: 3 }} className="bg-light text-info"  >
 
             {isloadindChart ? <CircularProgress color="inherit" /> : <Bar options={chartOptions} data={data} > </Bar>}
 
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div"   >
-                    <p className="bg-dark" style={{ color: "rgb(220 53 53)" }} >   {country.name}</p>
+                    <p className="bg-dark" style={{ color: "rgb(187 52 211)" }} >   {country.name}</p>
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
+                    <Link className='btn btn-outline-dark' to={`/countries/${country.code}`} >View country deatils </Link>
                 </Typography>
+                <CardActions></CardActions>
             </CardContent>
-            <CardActions>
-                <Button size="small">View country deatils </Button>
-            </CardActions>
         </Card >
     );
 }
