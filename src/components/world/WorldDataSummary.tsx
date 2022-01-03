@@ -12,40 +12,40 @@ const WorldDataSummary = () => {
     return (
         <>
 
-            <Grid container className="bg-dark text-primary" >
+            <Grid container className="bg-dark " >
                 <Grid item md={12} sm={12} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Total Cases </h3>
-                        <Box sx={{ color: 'info.main' }}>  {worldData.cases}</Box>
+                        <h3 className="text-info" > Total Cases </h3>
+                        <Box sx={{ color: "rgb(142, 93, 151)" }}>  {worldData.cases}</Box>
                     </Box>
                 </Grid>
                 <Grid item md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Active  Cases</h3>
-                        <Box sx={{ color: 'info.main' }}>   {worldData.active}
+                        <h3 className="text-info" > Active  Cases</h3>
+                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>   {worldData.active}
                         </Box>
                     </Box>
 
                 </Grid>
                 <Grid md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Today Cases</h3>
-                        <Box sx={{ color: 'info.main' }}>   {worldData.todayCases}
+                        <h3 className="text-info" > Today Cases</h3>
+                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>   {worldData.todayCases}
                         </Box>
                     </Box>
 
                 </Grid>
                 <Grid item md={12} sm={12} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Total Recovered </h3>
-                        <Box sx={{ color: 'info.main' }}>   {worldData.recovered}
+                        <h3 className="text-info"> Total Recovered </h3>
+                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>   {worldData.recovered}
                         </Box>
                     </Box>
                 </Grid>
                 <Grid item md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Today Recovered</h3>
-                        <Box sx={{ color: 'info.main' }}>  {worldData.todayRecovered}
+                        <h3 className="text-info"> Today Recovered</h3>
+                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>  {worldData.todayRecovered}
                         </Box>
                     </Box>
 
@@ -54,24 +54,24 @@ const WorldDataSummary = () => {
 
                 <Grid md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Today  Recovered </h3>
-                        <Box sx={{ color: 'info.main' }}>   {worldData.todayRecovered}
+                        <h3 className="text-info"> Today  Recovered </h3>
+                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>   {worldData.todayRecovered}
                         </Box>
                     </Box>
 
                 </Grid>
                 <Grid md={12} sm={12} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Total  Deaths </h3>
-                        <Box sx={{ color: 'info.main' }}>   {worldData.deaths}
+                        <h3 className="text-info"> Total  Deaths </h3>
+                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>   {worldData.deaths}
                         </Box>
                     </Box>
 
                 </Grid>
                 <Grid md={12} sm={6} xs={12}>
                     <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3> Today  Deaths </h3>
-                        <Box sx={{ color: 'info.main' }}>   {worldData.todayDeaths}
+                        <h3 className="text-info"> Today  Deaths </h3>
+                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>   {worldData.todayDeaths}
                         </Box>
                     </Box>
 

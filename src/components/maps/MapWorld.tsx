@@ -24,9 +24,7 @@ const MapWorldComponent = (): ReactElement => {
     }
 
     useEffect(() => {
-
         prepareDataForCountriesMap()
-
     }, [])
     return (
 

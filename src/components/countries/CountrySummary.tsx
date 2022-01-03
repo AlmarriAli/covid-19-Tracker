@@ -72,7 +72,7 @@ const CountrySummary = (props: CountrySummaryProps) => {
             {
                 label: 'Recovered',
                 data: [latestData.recovered ? latestData.recovered : 0],
-                backgroundColor: 'rgb(212 140 225)',
+                backgroundColor: 'rgb(142, 93, 151, 0.7)',
             },
 
         ],
@@ -86,7 +86,7 @@ const CountrySummary = (props: CountrySummaryProps) => {
 
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div"   >
-                    <p className="bg-dark" style={{ color: "rgb(187 52 211)" }} >   {country.name}</p>
+                    <p className="bg-dark" style={{ color: "rgb(142, 93, 151)" }} >   {country.name}</p>
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     <Link className='btn btn-outline-dark' to={`/countries/${country.code}`} >View country deatils </Link>

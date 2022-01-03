@@ -9,7 +9,6 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
-import { Chart } from 'react-chartjs-2';
 import { IBarChartdatasets } from '../../interfaces/ChartData';
 
 ChartJS.register(
@@ -33,28 +32,6 @@ export const options = {
     },
 };
 
-const labels = ["total", "today", "active", "Recovered"]
-const mapData = [1000, 2000, 5000, 4000]
-const datasets = [
-
-    {
-        label: ' World Cases',
-        data: mapData,
-        backgroundColor: [
-            'rgb(228 173 237)',
-            'rgb(255, 99, 132)',
-            'rgb(13 202 240)',
-
-        ],
-        borderWidth: 1
-    }
-
-]
-
-const data = {
-    labels, datasets
-}
-
 
 interface CountrySummaryBarChartProps {
     labels: Array<string>,
@@ -66,7 +43,7 @@ const CountrySummaryBarChart = (props: CountrySummaryBarChartProps) => {
     const { labels, datasets } = props
     return (
         <>
-            <Bar data={{ labels, datasets }} options={options} >  </Bar>
+            <Bar data={{ labels, datasets }} options={options}  >  </Bar>
         </>
     )
 }

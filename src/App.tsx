@@ -14,6 +14,7 @@ import CountryDetailsProvider from './contexts/CountryDetailsContext';
 
 
 const routes = {
+  "base": { path: "/", component: <HomePage /> },
   "home": { path: "/home", component: <HomePage /> },
   "dashobard": { path: "/dashboard", component: <DashBoardPage /> },
   "countries": { path: "/countries", component: <CountriesPage /> },
@@ -34,6 +35,7 @@ function App() {
             <CountryDetailsProvider>
               <div className="App container-fluid">
                 <Routes>
+                  <Route path={routes.base.path} element={<HomePage />}>  </Route>
                   <Route path={routes.home.path} element={<HomePage />}>  </Route>
                   <Route path={routes.dashobard.path} element={<DashBoardPage />}>  </Route>
                   <Route path={routes.regions.path} element={<RegionsPage />}>  </Route>
