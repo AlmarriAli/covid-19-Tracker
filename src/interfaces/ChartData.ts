@@ -5,3 +5,10 @@ export interface IBarChartdatasets {
     borderWidth?: number
 
 }
+export interface ILineChartdatasets {
+    label?: string,
+    data: Array<number>,
+    backgroundColor?: Array<string> | string,
+    bordercolor?: string
+
+}

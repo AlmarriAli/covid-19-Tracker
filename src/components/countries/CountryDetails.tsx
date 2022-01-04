@@ -12,7 +12,7 @@ const CountryDetails = (): ReactElement => {
     const [countryDetails, setCountrydetails] = useState<any>({})
     const [mapTimeline, setMapTimeline] = useState([]);
     const [isloading, setIsloading] = useState<boolean>(false)
-
+    const [IsLinechart, setIsLinechart] = useState(false)
     const BaseAPIUrl = "https://corona-api.com/countries";
 
     const fetchCountryData = async (code: string) => {
@@ -123,7 +123,7 @@ const CountryDetails = (): ReactElement => {
                     <Grid container justifyContent="center" direction="row">
                         <Grid item md={3} sm={12} xs={12} className="border  ">
                             <Grid container justifyContent="center" direction="row">
-                                <Grid item md={12} sm={12} xs={12} className="border bg-dark text-warning ">
+                                <Grid item md={12} sm={12} xs={12} className="border bg-dark text-secondary ">
                                     <span>last Update at : {new Date(countryDetails.data?.updated_at).toLocaleString()
                                     } </span>
                                 </Grid>
@@ -176,13 +176,15 @@ const CountryDetails = (): ReactElement => {
                             </Grid>
                             <Grid container justifyContent="center" direction="row" className="border ">
                                 <Grid item md={4} sm={6} xs={6} className="border">
-                                    <CountrySummaryBarChart labels={labels} datasets={dataSets} ></CountrySummaryBarChart>
+                                    <CountrySummaryBarChart labels={labels} datasets={dataSets} chartTitle={`Last 5 days chart for ${countryDetails.data?.name}`} ></CountrySummaryBarChart>
+
                                 </Grid>
                                 <Grid item md={4} sm={6} xs={6} className="border" >
-                                    <CountrySummaryBarChart labels={labels} datasets={newCasesdataSets}></CountrySummaryBarChart>
+                                    <CountrySummaryBarChart labels={labels} datasets={newCasesdataSets} chartTitle={`Recent cases in  ${countryDetails.data?.name}`}  ></CountrySummaryBarChart>
                                 </Grid>
                                 <Grid item md={4} sm={6} xs={6} className="border" >
                                     <Doughnut data={data} style={{ maxHeight: 335 }} ></Doughnut>
+
                                 </Grid>
                             </Grid>
                         </Grid>

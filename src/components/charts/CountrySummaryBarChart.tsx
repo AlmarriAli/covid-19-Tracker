@@ -1,49 +1,59 @@
+import { FamilyRestroomOutlined } from '@mui/icons-material';
 import {
     Chart as ChartJS,
     CategoryScale,
     LinearScale,
     BarElement,
+    PointElement,
+    LineElement,
     Title,
     Tooltip,
     Legend,
 } from 'chart.js';
-import { Bar } from 'react-chartjs-2';
+import { useState } from 'react';
+import { Bar, Line } from 'react-chartjs-2';
 
-import { IBarChartdatasets } from '../../interfaces/ChartData';
+import { IBarChartdatasets, ILineChartdatasets } from '../../interfaces/ChartData';
 
 ChartJS.register(
     CategoryScale,
     LinearScale,
     BarElement,
+    PointElement,
+    LineElement,
     Title,
     Tooltip,
     Legend
 );
-export const options = {
-    responsive: true,
-    plugins: {
-        legend: {
-            position: 'top' as const,
-        },
-        title: {
-            display: true,
-            text: 'Chart.js Bar Chart',
-        },
-    },
-};
 
 
 interface CountrySummaryBarChartProps {
     labels: Array<string>,
-    datasets: Array<IBarChartdatasets>
-
+    datasets: Array<IBarChartdatasets> | Array<ILineChartdatasets> | any,
+    chartTitle: string
 }
 
 const CountrySummaryBarChart = (props: CountrySummaryBarChartProps) => {
-    const { labels, datasets } = props
+    const [isLineChart, setIsLineChart] = useState(false)
+    const { labels, datasets, chartTitle } = props
+    const options = {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top' as const,
+            },
+            title: {
+                display: true,
+                text: chartTitle,
+            },
+        },
+    };
+
     return (
         <>
-            <Bar data={{ labels, datasets }} options={options}  >  </Bar>
+            {isLineChart && <Line data={{ labels, datasets }} options={options}  >  </Line>}
+            {!isLineChart && <Bar data={{ labels, datasets }} options={options}  >  </Bar>}
+            <button className="btn btn-outline-info mt-4" onClick={() => setIsLineChart(!isLineChart)}> Convert to {isLineChart ? " bar chart" : " line chart"}</button>
         </>
     )
 }
