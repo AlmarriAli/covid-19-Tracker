@@ -42,7 +42,7 @@ const CountrySummary = (props: CountrySummaryProps) => {
     const { latest_data: latestData } = country;
     const [isloadindChart] = useState(false)
 
-    const labels = ["Deaths"];
+    const labels = [`${country.name}`];
     const chartOptions = {
         responsive: true,
         plugins: {

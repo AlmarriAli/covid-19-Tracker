@@ -12,7 +12,7 @@ const CountriesList = (): ReactElement => {
 
     const handleSearch = (val: any): void => {
         const searchResult = countriesData.data?.filter((country) => {
-
+            console.log(`val`, val)
             return country.name.toLowerCase().includes(val);
 
         })

@@ -42,14 +42,6 @@ const WorldDataSummary = () => {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item md={12} sm={6} xs={12}>
-                    <Box sx={{ p: 2, border: '1px solid grey' }}>
-                        <h3 className="text-info"> Today Recovered</h3>
-                        <Box sx={{ color: 'rgb(142, 93, 151)' }}>  {worldData.todayRecovered}
-                        </Box>
-                    </Box>
-
-                </Grid>
 
 
                 <Grid md={12} sm={6} xs={12}>

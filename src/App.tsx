@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage';
 import WorldDataContextProvider from './contexts/worldCasesContext';
 import Header from './components/baseComponents/Main-nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import DashBoardPage from './pages/DashBoardPage';
+import DashBoardPage from './pages/NewsPage';
 import CountriesPage from './pages/CountriesPage';
 import RegionsPage from './pages/RegionsPage';
 import CountryDetails from './components/countries/CountryDetails';
