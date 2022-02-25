@@ -15,7 +15,6 @@ const CountryDetailsProvider = ({ children }: any) => {
     const fetchCountryData = async (code: string) => {
         const res = await fetch(`${BaseAPIUrl}/${code}`);
         const data = await res.json();
-        console.log(`data::>>>>`, data)
         setCountrydetails(data)
         return data
     }
