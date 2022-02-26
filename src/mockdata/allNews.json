@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 203274,
+    "articles": [
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Matt Jancer",
+            "title": "How to Get a Covid-19 Booster Shot",
+            "description": "Here is everything you need to know about finding and receiving the booster shot in the age of Omicron.",
+            "url": "https://www.wired.com/story/how-to-find-a-covid-booster-shot/",
+            "urlToImage": "https://media.wired.com/photos/61f06d377e1d5d6f07fba61a/191:100/w_1280,c_limit/Gear-Where-to-Get-Booster-1357859000.jpg",
+            "publishedAt": "2022-01-26T12:00:00Z",
+            "content": "Back to Table of Contents\r\nLike the initial vaccines, booster shots are typically covered by your health insurance, but it pays to check with your provider and the office before you commit to an appo… [+3165 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Saira Mueller",
+            "title": "How to Navigate International Travel Now—and in the Near Future",
+            "description": "Covid-19 isn't going away anytime soon. If you must go overseas, here's how to stay safe and avoid a logistical nightmare.",
+            "url": "https://www.wired.com/story/international-travel-covid-19-tips/",
+            "urlToImage": "https://media.wired.com/photos/61f489b1844ec857b7138484/191:100/w_1280,c_limit/Gear-International-Travel-1314648060.jpg",
+            "publishedAt": "2022-01-30T12:00:00Z",
+            "content": "When I had to leave the US last year my first choice was to go home to Australia, but that was near-impossible at the time (even for citizens) due to extremely tight restrictions. My next choice was … [+4193 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Igor Bonifacic",
+            "title": "At-home COVID-19 tests could be more affordable thanks to your smartphone",
+            "description": "Ever since the omicron variant arrived in the US, there’s been a testing shortage in the country. Stuck between long lines at dedicated clinics and overly expensive at-home tests, many Americans have understandably given up the idea of getting tested to ensur…",
+            "url": "https://www.engadget.com/smart-lamp-covid-19-test-uc-santa-barbara-183915394.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-01/3cad1a60-81f9-11ec-bbff-f9931db7b957",
+            "publishedAt": "2022-01-30T18:39:15Z",
+            "content": "Ever since the omicron variant arrived in the US, theres been a testing shortage in the country. Stuck between long lines at dedicated clinics and overly expensive at-home tests, many Americans have … [+1770 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Igor Bonifacic",
+            "title": "Spotify will add a ‘content advisory’ to COVID-19 podcast episodes",
+            "description": "Following days of controversy stemming from Spotify’s handling of allegations that Joe Rogan has used the platform to spread COVID-19 misinformation, the company said on Sunday it would take new measures to point its users to accurate information about the pa…",
+            "url": "https://www.engadget.com/spotify-covid-19-content-advisory-210856599.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-01/58ba6160-8210-11ec-9fec-f2b09501cf72",
+            "publishedAt": "2022-01-30T21:08:56Z",
+            "content": "Following days of controversy stemming from Spotifys handling of allegations that Joe Rogan has used the platform to spread COVID-19 misinformation, the company said on Sunday it would take new measu… [+2785 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Queen Elizabeth II Tests Positive for Covid-19",
+            "description": "Buckingham Palace offered few details about the condition of the British monarch, who turns 96 in April. Here’s the latest.",
+            "url": "https://www.nytimes.com/live/2022/02/20/world/queen-elizabeth-covid",
+            "urlToImage": "https://static01.nyt.com/images/2022/02/20/world/20queen-covid-sub01/20queen-covid-sub01-facebookJumbo.jpg",
+            "publishedAt": "2022-02-20T12:19:43Z",
+            "content": "LONDON Queen Elizabeth II has been infected with the coronavirus, Buckingham Palace said on Sunday, becoming one of the worlds most prominent figures to battle the virus and deeply rattling the count… [+3126 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Max Foster, CNN",
+            "title": "Camilla, Duchess of Cornwall tests positive for Covid-19",
+            "description": "Camilla, Duchess of Cornwall has tested positive for Covid, according to a statement from Clarence House.",
+            "url": "https://www.cnn.com/2022/02/14/europe/camilla-covid-intl-scli/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnn/.e/img/4.0/logos/cnn_logo_social.jpg",
+            "publishedAt": "2022-02-14T12:24:10Z",
+            "content": "(CNN)Camilla, Duchess of Cornwall has tested positive for Covid, according to a statement from Clarence House.\r\n\"Her Royal Highness The Duchess of Cornwall has tested positive for Covid-19 and is sel… [+269 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "By <a href=\"/profiles/adrienne-vogt\">Adrienne Vogt</a>, <a href=\"/profiles/meg-wagner\">Meg Wagner</a>, Jason Kurtz, Melissa Macaya and Mike Hayes, CNN",
+            "title": "France starts first phase of easing Covid-19 restrictions",
+            "description": "Pfizer and BioNTech are requesting emergency use authorization for their two-dose Covid-19 vaccine for US children age 6 months up to 5 years. Follow for live news updates.",
+            "url": "https://www.cnn.com/world/live-news/omicron-variant-coronavirus-news-02-02-22/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220128150815-us-covid-restrictions-file-super-tease.jpg",
+            "publishedAt": "2022-02-02T13:04:02Z",
+            "content": "In the week of Jan. 24-30, new global Covid-19 deaths increased by 9% over the week before, with over 59,000 new deaths reported, according to the World Health Organizations weekly epidemiological up… [+1184 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "India Covid-19: The children who have never seen a classroom",
+            "description": "Experts say Covid-19 lockdowns have taken away precious years of learning from children.",
+            "url": "https://www.bbc.co.uk/news/world-asia-india-60256060",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2960/production/_123129501_gettyimages-1207147916.jpg",
+            "publishedAt": "2022-02-05T01:41:50Z",
+            "content": "By Andrew ClaranceBBC News, Delhi\r\nImage source, Getty Images\r\nImage caption, More than 298 million school children across India were affected by school closures, says a UN report\r\nIn December 2019, … [+4878 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "New Zealand plays Barry Manilow to repel parliament protesters",
+            "description": "Protesters opposed to Covid-19 vaccine mandates remain camped outside parliament.",
+            "url": "https://www.bbc.co.uk/news/world-asia-60362529",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1DE5/production/_123235670_gettyimages-1238390772.jpg",
+            "publishedAt": "2022-02-12T17:19:51Z",
+            "content": "Image source, Getty Images\r\nImage caption, Protesters responded to the music with their own, including Twisted Sister's We're Not Gonna Take It\r\nAuthorities in New Zealand have been playing Barry Man… [+1906 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Beijing Olympics: Winter Games start amid Covid and boycotts",
+            "description": "The Winter Games begin amid tight Covid-19 restrictions and allegations of human rights abuses.",
+            "url": "https://www.bbc.co.uk/news/world-asia-china-60242083",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12E13/production/_123113377_china_olympics_yiyi_skating.png",
+            "publishedAt": "2022-02-04T00:14:33Z",
+            "content": "By Robin BrantBBC News, Shanghai\r\nImage caption, Keen ice skater Yiyi (right) won't be able to attend any of the events - no tickets will be sold to the general public\r\nThe most divided Olympic Games… [+5562 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Mariella Moon",
+            "title": "Amazon eases warehouse mask rule once again",
+            "description": "Amazon's warehouse workers won't be required to wear masks in the workplace anymore, so long as they're fully vaccinated. According to The Wall Street Journal, the e-commerce giant told workers in a memo that it has eased its mask requirements due to the \"sha…",
+            "url": "https://www.engadget.com/amazon-eases-warehouse-mask-rule-once-again-121831502.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2020-12/c7afb1f0-3415-11eb-bff7-93bacb6e4452",
+            "publishedAt": "2022-02-12T12:18:31Z",
+            "content": "Amazon's warehouse workers won't be required to wear masks in the workplace anymore, so long as they're fully vaccinated. According to The Wall Street Journal, the e-commerce giant told workers in a … [+1448 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Alyse Stanley",
+            "title": "FDA Is Reportedly Considering Whether to Approve a Second Booster Shot for This Fall",
+            "description": "This fall, you may be able to get a second covid-19 booster shot along with your annual flu vaccine.Read more...",
+            "url": "https://gizmodo.com/fda-is-reportedly-considering-whether-to-approve-a-seco-1848567869",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/087c9e6b536c2ed644553b5592c947f4.jpg",
+            "publishedAt": "2022-02-19T20:45:00Z",
+            "content": "This fall, you may be able to get a second covid-19 booster shot along with your annual flu vaccine.\r\nThe U.S. Food and Drug Administration has begun reviewing data to decide whether to authorize a s… [+3142 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Jobs Report Is Expected to Show Weaker Gain, or Even a Loss",
+            "description": "The impact of Covid-19’s latest wave on the work force will become clearer today when the Labor Department releases new numbers. Follow our updates.",
+            "url": "https://www.nytimes.com/live/2022/02/04/business/jobs-report-january",
+            "urlToImage": "https://static01.nyt.com/images/2022/02/04/business/04econ-jobs-surveys/04econ-jobs-surveys-facebookJumbo.jpg",
+            "publishedAt": "2022-02-04T10:59:30Z",
+            "content": "The impact of Covid-19s latest wave on the work force will become clearer on Friday when the Labor Department releases the January jobs report. But the picture may still be a bit blurry.Data for the … [+1570 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Madeleine Ngo",
+            "title": "Angry Customers, More Work and Longer Hours Strain Pharmacists",
+            "description": "Pharmacists and technicians, who have played a critical role in administering Covid-19 tests and vaccines, say they are burned out nearly two years into the pandemic.",
+            "url": "https://www.nytimes.com/2022/02/10/us/politics/pharmacists-strain-covid.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/02/10/us/politics/00dc-pharmacies-1/merlin_201167187_631eb055-0781-4940-a52d-c6f5eabb4881-facebookJumbo.jpg",
+            "publishedAt": "2022-02-10T10:00:07Z",
+            "content": "But companies may find it harder now to attract and retain employees who are not willing to take on the extra workload. Jon C. Schommer, a professor at the University of Minnesotas College of Pharmac… [+1971 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Kris Holt",
+            "title": "Whistleblower group says Meta misled investors over misinformation",
+            "description": "Whistleblower Aid says it has filed complaints with the Securities and Exchange Commission that accuse Meta\r\n of misleading investors about efforts to mitigate climate change and COVID-19 misinformation across its platforms. The nonprofit, which represents Me…",
+            "url": "https://www.engadget.com/meta-climate-change-covid-19-misinformation-sec-complaint-192140322.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-02/00deeb10-90f1-11ec-bbff-3d6638effece",
+            "publishedAt": "2022-02-18T19:21:40Z",
+            "content": "Whistleblower Aid says it has filed complaints with the Securities and Exchange Commission that accuse Meta of misleading investors about efforts to mitigate climate change and COVID-19 misinformatio… [+2434 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "'We can say we were at the Covid Olympics and wore a mask in a game'",
+            "description": "Players wear face masks for an ice hockey match at the Winter Olympics after confusion over Covid-19 tests.",
+            "url": "https://www.bbc.co.uk/sport/winter-olympics/60286124",
+            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/B6D6/production/_123160864_gettyimages-1238257245.jpg",
+            "publishedAt": "2022-02-07T09:44:32Z",
+            "content": "Canada beat the Russian Olympic Committee 6-1 in the preliminary round\r\n<table><tr><th>24th Winter Olympic Games</th></tr>\r\n<tr><td>Hosts: Beijing, China Dates: 4-20 February</td></tr><tr><td>Coverag… [+1512 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Mariella Moon",
+            "title": "Spotify reportedly has a very limited set of COVID content guidelines",
+            "description": "When Spotify started removing Neil Young's playlist from its service, it defended its practices against misinformation and said that it had already pulled over 20,000 COVID-related podcast episodes. Young threatened to remove his catalog from the service over…",
+            "url": "https://www.engadget.com/spotify-very-limited-covid-content-guidelines-194545334.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-images/2020-05/b7356e10-9abd-11ea-bcbb-4693105109be",
+            "publishedAt": "2022-01-29T19:45:45Z",
+            "content": "When Spotify started removing Neil Young's playlist from its service, it defended its practices against misinformation and said that it had already pulled over 20,000 COVID-related podcast episodes. … [+2924 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "By Maxime Tamsett, CNN",
+            "title": "Israel to open borders to unvaccinated tourists March 1",
+            "description": "Israel plans to open its borders to all tourists, no matter their Covid-19 vaccination status, starting March 1.",
+            "url": "https://www.cnn.com/travel/article/israel-opens-borders-unvaccinated-tourists-march-1/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220221162649-tel-aviv-beach-aerial-super-tease.jpg",
+            "publishedAt": "2022-02-21T22:25:10Z",
+            "content": "Top image: An aerial view shows the beaches in Israel's Mediterranean city of Tel Aviv in May, 2021. (Gil Cohen-Magen/AFP via Getty Images) CNN's Hadas Gold and Amir Tal contributed to this report."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Matt Novak",
+            "title": "Hospitals Complain Nurses Making Too Much Money During Covid-19 Pandemic",
+            "description": "The hospital industry is lobbying the White House to help drive down wages for health care workers across the U.S. after many travel nurses saw a rise in wages during the covid-19 pandemic, according to a new report from the Wall Street Journal. And despite a…",
+            "url": "https://gizmodo.com/hospitals-complain-nurses-making-too-much-money-during-1848505160",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/8890cf2e476f66177cde2fe1475e6eb0.jpg",
+            "publishedAt": "2022-02-09T11:00:00Z",
+            "content": "The hospital industry is lobbying the White House to help drive down wages for health care workers across the U.S. after many travel nurses saw a rise in wages during the covid-19 pandemic, according… [+3513 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Sheryl Gay Stolberg",
+            "title": "Covid-19 Commission Modeled on 9/11 Inquiry Draws Bipartisan Backing",
+            "description": "A broad, bipartisan group of senators is coalescing around a plan for an independent panel to investigate the origins of the coronavirus and the U.S. response.",
+            "url": "https://www.nytimes.com/2022/02/04/us/politics/covid-commission.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/02/04/multimedia/04dc-virus-commission-senators/04dc-virus-commission-senators-facebookJumbo.jpg",
+            "publishedAt": "2022-02-04T10:00:22Z",
+            "content": "But Dr. Anthony S. Fauci, Mr. Bidens top medical adviser for the pandemic, said it was important to investigate the origins of the pandemic. He said it took years after the coronavirus that caused SA… [+2087 chars]"
+        }
+    ]
+}

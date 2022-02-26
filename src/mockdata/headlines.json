@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 33,
+    "articles": [
+        {
+            "source": {
+                "id": "cbc-news",
+                "name": "CBC News"
+            },
+            "author": "CBC News",
+            "title": "Alberta lifting almost all remaining COVID-19 restrictions March 1 | CBC News",
+            "description": "Most remaining public health restrictions will be lifted in Alberta on Tuesday as the province proceeds with the second phase of moving to an endemic approach to COVID-19.",
+            "url": "http://www.cbc.ca/news/canada/edmonton/alberta-covid-19-step-2-restrictions-lifted-1.6365902",
+            "urlToImage": "https://i.cbc.ca/1.6365926.1645900151!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_620/jason-kenney.JPG",
+            "publishedAt": "2022-02-26T19:07:23.4046115Z",
+            "content": "Almost all remaining public health restrictions in Alberta will be lifted on Tuesday as the province proceeds with the second phase of moving to an endemic approach to COVID-19.\r\nPremier Jason Kenney… [+2535 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "Restaurants struggle to bounce back from COVID-19 pandemic",
+            "description": "As the U.S. enters year three of the COVID-19 pandemic, the nation is slowly pulling out of the nosedive that disrupted life as we know it. But recovery may still be a long way off for many restaurants. Kris Van Cleave reports.",
+            "url": "https://www.cbsnews.com/video/restaurants-struggle-to-bounce-back-from-covid-19-pandemic/",
+            "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2022/02/26/34246d08-08dd-4bfb-8a56-78e50b4a854f/thumbnail/1200x630/4315b8596d9d10c94ab68500ee010b6f/0226-cbssatmo-covidrestaurants-kvc-906164-640x360.jpg",
+            "publishedAt": "2022-02-26T18:54:15+00:00",
+            "content": "Watch CBS News\r\nCopyright ©2022 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Lucia Stein",
+            "title": "Queen Elizabeth II's brush with COVID-19 presents a royal conundrum: is it time to retire 'The Firm'?",
+            "description": "The Queen's recent brush with COVID-19 revealed an uncomfortable truth: the stability of the monarchy still rests on the shoulders of the Queen alone.",
+            "url": "http://www.abc.net.au/news/2022-02-27/queen-elizabeth-ii-s-brush-with-covid-lesson-in-stability/100849944",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/95b998b623f5cca66a45efac7d9f3f77?impolicy=wcms_crop_resize&cropH=2463&cropW=4379&xPos=0&yPos=225&width=862&height=485",
+            "publishedAt": "2022-02-26T17:58:56Z",
+            "content": "For more than 70 years, the Queen has been a steady hand steering the monarchy through wars, political upheaval and civil unrest. \r\nHer reign is often summed up in one word: stability. Her strength a… [+8386 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "Express Web Desk",
+            "title": "Mumbai News Highlights: First evacuation flight carrying Indian citizens from Ukraine lands in Mumbai; City records 89 Covid cases",
+            "description": "Mumbai Today Live Updates, Mumbai Omicron News, Maharashtra Latest Updates: Money Laundering Case, Nawab Malik News, Mumbai Latest active COVID-19 Cases, Maharashtra News Updates",
+            "url": "https://indianexpress.com/article/cities/mumbai/mumbai-news-live-weather-traffic-covid-7790184/",
+            "urlToImage": "https://images.indianexpress.com/2022/02/ukra.jpg",
+            "publishedAt": "2022-02-26T17:07:16+00:00",
+            "content": "Mumbai on Saturday reported 89 Covid-19 cases and no death, the seventh time this month when the fatality slate was clean in the metropolis, a civic official said.\r\nThe tally in the city now stands a… [+323 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-it",
+                "name": "Google News (Italy)"
+            },
+            "author": "Susanna Picone",
+            "title": "Bollettino Covid Italia, oggi 38.375 contagi e 210 morti per Coronavirus: i dati di sabato 26 febbraio",
+            "description": "Sono 38.375 i nuovi casi Covid-19 in Italia registrati nelle ultime 24 ore a fronte di 434.077 tamponi effettuati. Si contano altre 210 vittime. Il bollettino di oggi, sabato 26 febbraio.",
+            "url": "https://www.fanpage.it/attualita/bollettino-covid-italia-oggi-38-375-contagi-e-210-morti-per-coronavirus-i-dati-di-sabato-26-febbraio/",
+            "urlToImage": "https://static.fanpage.it/wp-content/uploads/2021/11/boll.jpg",
+            "publishedAt": "2022-02-26T17:03:56+00:00",
+            "content": "Sono 38.375 i nuovi casi Covid-19 in Italia registrati nelle ultime 24 ore a fronte di 434.077 tamponi effettuati. Si contano altre 210 vittime. Il bollettino di oggi, sabato 26 febbraio.\r\nAttiva le … [+2169 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Jeanine Santucci and Christine Fernando, USA TODAY",
+            "title": "Should I wear a mask in my county? CDC map shows COVID risk levels: Live COVID updates",
+            "description": "The CDC announced new COVID-19 metrics Friday, which place most of the U.S. population in areas of low or medium risk of COVID. Latest COVID news.",
+            "url": "https://www.usatoday.com/story/news/health/2022/02/26/cdc-mask-guidance-by-county-updates/6943975001/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2021/12/22/USAT/e9b6fcca-ba05-435c-898c-ec26ec3e375f-AP_APTOPIX_Virus_Outbreak_Maine.jpg?auto=webp&crop=4485,2523,x1,y211&format=pjpg&width=1200",
+            "publishedAt": "2022-02-26T15:38:15+00:00",
+            "content": "The Centers for Disease Control and Prevention relaxed mask recommendations for most Americans on Friday, releasing a color-coded map to help residents determine if they should wear masks indoors in … [+6600 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-ca",
+                "name": "Google News (Canada)"
+            },
+            "author": "Katherine DeClerq",
+            "title": "Ontario confirms 34 more COVID-19 deaths, ICU admissions continue to decline",
+            "description": "Ontario is reporting 34 more COVID-19 related deaths on Saturday as the number of people being treated in intensive care continues to decline.",
+            "url": "https://toronto.ctvnews.ca/ontario-confirms-34-more-covid-19-deaths-icu-admissions-continue-to-decline-1.5797385",
+            "urlToImage": "https://www.ctvnews.ca/polopoly_fs/1.5390595.1618597989!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "publishedAt": "2022-02-26T15:30:35+00:00",
+            "content": "Ontario is reporting 34 more COVID-19 related deaths on Saturday as the number of people being treated in intensive care continues to decline.\r\nAccording to the province, there are 1,024 people being… [+2563 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "ALICE FUNG and ANIRUDDHA GHOSAL",
+            "title": "Hong Kong's success in fending off COVID comes back to haunt",
+            "description": "HONG KONG (AP) — For two years, Hong Kong successfully insulated most of its residents from COVID-19 and often went months without a single locally spread case. Then the omicron variant showed up.The fast-spreading mutation breached Hong Kong’s defenses and h…",
+            "url": "https://apnews.com/6c5759de23e4c2dbff252b210959e4da",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/1b27ab89b3dc4a44925d789fc96e2fa4/3000.jpeg",
+            "publishedAt": "2022-02-26T15:02:19Z",
+            "content": "HONG KONG (AP) — For two years, Hong Kong successfully insulated most of its residents from COVID-19 and often went months without a single locally spread case. Then the omicron variant showed up.The… [+5993 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": null,
+            "title": "Hong Kong Delays First Retail Green Bond Launch Due to Covid-19",
+            "description": "",
+            "url": "https://www.bloomberg.com/news/articles/2022-02-26/hong-kong-delays-first-retail-green-bond-launch-due-to-covid-19",
+            "urlToImage": null,
+            "publishedAt": "2022-02-26T13:25:44+00:00",
+            "content": ""
+        },
+        {
+            "source": {
+                "id": "google-news-au",
+                "name": "Google News (Australia)"
+            },
+            "author": "Eugene Boisvert",
+            "title": "No new COVID-19 deaths in South Australia as restrictions ease at hospitality venues",
+            "description": "South Australia has reported no new deaths from COVID-19, and the number of new cases has dropped slightly.",
+            "url": "https://www.abc.net.au/news/2022-02-26/no-new-covid-19-deaths-in-sa-as-hospitality-restrictions-ease/100864362",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/835826b7cf6ccea5e3af9f5544d7f741?impolicy=wcms_crop_resize&cropH=859&cropW=1527&xPos=3&yPos=0&width=862&height=485",
+            "publishedAt": "2022-02-26T04:20:02+00:00",
+            "content": "South Australia has reported no new deaths from COVID-19, and the number of new cases has dropped slightly.\r\nKey points:\r\n<ul><li>COVID-19 case numbers have fallen, along with the number of tests car… [+1979 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "ABC News",
+            "title": "COVID-19 updates: All news from Australia you need in one place",
+            "description": "Mask rules have changed and restrictions have been updated in some states and territories. Get up to speed on all the coronavirus news from across Australia.",
+            "url": "http://www.abc.net.au/news/2022-02-26/covid-updates-australia-cases-deaths-restrictions/100864496",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/f579bb4202a717a0ccbebd935fa62811?impolicy=wcms_crop_resize&cropH=2530&cropW=4497&xPos=0&yPos=234&width=862&height=485",
+            "publishedAt": "2022-02-26T04:18:48Z",
+            "content": "Mask rules have changed and restrictions have been updated in some states and territories.\r\nGet up to speed on all the COVID-19 news from across Australia.\r\nStay up-to-date on the coronavirus outbrea… [+4344 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-au",
+                "name": "Google News (Australia)"
+            },
+            "author": "Ashleigh McMillan",
+            "title": "Mask rules loosened as Victoria records 5874 cases, 15 deaths",
+            "description": "Victoria’s COVID-19 restrictions have eased overnight, with masks no longer required in all indoor settings and the ‘work from home’ mandate scrapped.",
+            "url": "https://www.theage.com.au/national/victoria/mask-rules-loosened-as-victoria-records-5874-cases-15-deaths-20220226-p59zvn.html",
+            "urlToImage": "https://static.ffx.io/images/$zoom_0.3531%2C$multiply_0.7554%2C$ratio_1.776846%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/t_theage_no_label_no_age_social_wm/71f73fed4dc6547e46c34fd83d0143b101ff99f7",
+            "publishedAt": "2022-02-25T22:10:37+00:00",
+            "content": "He said he hoped to see a lot more Victorians returning to face-to-face work across the city next week, but expected there would be different arrangements for each workplace.\r\nBut theres clearly a st… [+2711 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Aria Bendix",
+            "title": "CDC says some US counties can take off their masks: map",
+            "description": "The CDC relaxed mask recommendations on Friday for counties with low and medium levels of COVID-19 cases.",
+            "url": "http://www.businessinsider.com/cdc-some-us-counties-can-remove-masks-map-2022-2",
+            "urlToImage": "https://i.insider.com/6219353daa07b20019fa1668?width=1200&format=jpeg",
+            "publishedAt": "2022-02-25T20:45:08Z",
+            "content": "The Centers for Disease Control and Prevention relaxed mask guidelines for up to 70% of the US population, or 63% of US counties, on Friday.\r\nPeople in counties with low and medium levels of COVID-19… [+2475 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider-uk",
+                "name": "Business Insider (UK)"
+            },
+            "author": "Aria Bendix",
+            "title": "CDC says some US counties can take off their masks: map",
+            "description": "The CDC relaxed mask recommendations on Friday for counties with low and medium levels of COVID-19 cases.",
+            "url": "http://uk.businessinsider.com/cdc-some-us-counties-can-remove-masks-map-2022-2",
+            "urlToImage": "https://i.insider.com/6219353daa07b20019fa1668?width=1200&format=jpeg",
+            "publishedAt": "2022-02-25T20:45:08Z",
+            "content": "The Centers for Disease Control and Prevention relaxed mask guidelines for up to 70% of the US population, or 63% of US counties, on Friday.\r\nPeople in counties with low and medium levels of COVID-19… [+2475 chars]"
+        },
+        {
+            "source": {
+                "id": "medical-news-today",
+                "name": "Medical News Today"
+            },
+            "author": "Katharine Lang",
+            "title": "COVID-19 and dementia: Are scientists concerned?",
+            "description": "Medical News Today looked at emerging research and spoke to top experts to learn about the possible link between COVID-19 and dementia risk.",
+            "url": "http://www.medicalnewstoday.com/articles/dementia-and-covid-19-why-are-scientists-concerned",
+            "urlToImage": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/02/COVID-19_dementia_GettyImages1272440773_Thumb.jpg",
+            "publishedAt": "2022-02-25T10:59:00Z",
+            "content": "For most, COVID-19 causes a few days of mild to moderate symptoms, but other feel the effects for months. Some of these effects are neurological, leading scientists to ask whether COVID-19 could incr… [+9968 chars]"
+        },
+        {
+            "source": {
+                "id": "australian-financial-review",
+                "name": "Australian Financial Review"
+            },
+            "author": "Michael Bennet",
+            "title": "WA closed border: Inside for COVID-19 Commission chief Nev Power’s flight from hell",
+            "description": "The former Fortescue chief executive’s cattle station and helicopter are central to a nightmare of his own making that could land him in jail.",
+            "url": "http://www.afr.com/wealth/people/inside-nev-power-s-flight-from-hell-20220224-p59ziw",
+            "urlToImage": "https://static.ffx.io/images/$zoom_0.1936%2C$multiply_4%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_95/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_no_label_no_age_social_wm/c2725d15f9879aeceda009620ed65354974df458",
+            "publishedAt": "2022-02-25T06:19:18Z",
+            "content": "Two years later, Power and his son this month pleaded guilty to two offences of breaching WAs COVID-19 rules (the third was discontinued) and face up to 12 months imprisonment or fines of up to $50,0… [+5538 chars]"
+        },
+        {
+            "source": {
+                "id": "new-scientist",
+                "name": "New Scientist"
+            },
+            "author": null,
+            "title": "Covid-19 news: 5.2 million children have lost a relative or caregiver",
+            "description": "The latest coronavirus news updated every day including coronavirus cases, the latest news, features and interviews from New Scientist and essential information about the covid-19 pandemic",
+            "url": "https://www.newscientist.com/article/2237475-covid-19-news-5-2-million-children-have-lost-a-relative-or-caregiver/",
+            "urlToImage": "https://images.newscientist.com/wp-content/uploads/2022/02/25120535/sei90035219.jpg",
+            "publishedAt": "2022-02-25T00:00:00Z",
+            "content": "By Michael Le Page, Clare Wilson, Jessica Hamzelou, Sam Wong, Graham Lawton, Adam Vaughan, Conrad Quilty-Harper, Jason Arunn Murugesu, Layal Liverpool, Carissa Wong and Alex Wilkins\r\nWhite flags that… [+40414 chars]"
+        },
+        {
+            "source": {
+                "id": "medical-news-today",
+                "name": "Medical News Today"
+            },
+            "author": "Katharine Lang",
+            "title": "How are COVID-19 deaths counted, and what does this mean?",
+            "description": "There is much debate around the way in which the authorities are counting and recording COVID-19 deaths. What are the facts behind the numbers? We investigate.",
+            "url": "http://www.medicalnewstoday.com/articles/how-are-covid-19-deaths-counted-and-what-does-this-mean",
+            "urlToImage": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/02/covid_deaths_counting_732x549_thumb.jpg",
+            "publishedAt": "2022-02-11T12:20:00Z",
+            "content": "In slightly more than 2 years, authorities have recorded 5.75 million COVID-19 deaths worldwide. Some people believe that this is an overestimate of the actual mortality from the disease. Others thin… [+8316 chars]"
+        },
+        {
+            "source": {
+                "id": "time",
+                "name": "Time"
+            },
+            "author": "Ken Moritsugu / AP",
+            "title": "China Tests 2 Million in Beijing and Lifts COVID-19 Lockdown in Xi’an",
+            "description": "COVID-19 cases in Beijing have prompted mass testing and new measures ahead of the Winter Olympics, even as Xi'an's lockdown is lifted.",
+            "url": "http://time.com/6141512/china-beijing-olympics-covid-19-testing/",
+            "urlToImage": "https://api.time.com/wp-content/uploads/2022/01/China-tests-2mil-Bejing-01.jpg?quality=85&w=1200&h=628&crop=1",
+            "publishedAt": "2022-01-24T18:38:19Z",
+            "content": "(BEIJING, China) — A cluster of COVID-19 cases in Beijing has prompted authorities to test millions and impose new measures two weeks ahead of the opening of the Winter Olympics, even as the city of … [+4652 chars]"
+        },
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": "Catie McLeod",
+            "title": "Gladys: Cases and deaths ‘unavoidable’",
+            "description": "<p>NSW Premier Gladys Berejiklian says driving Covid-19 cases down to zero is &ldquo;completely unrealistic&rdquo; and some deaths will be an unfortunate consequence of living with the Delta strain.</p>",
+            "url": "https://www.news.com.au/national/nsw-act/news/premier-gladys-berejiklian-grilled-about-death-rates-when-nsw-lives-with-delta/news-story/274740ec4697982c384a511c03befd5d",
+            "urlToImage": "https://content.api.news/v3/images/bin/5e175ec9764d78f6340340e27c751c29",
+            "publishedAt": "2021-08-23T10:47:00Z",
+            "content": "NSWs Premier says deaths will be an unfortunate consequence of opening up and living with Delta comparing the virus to the flu.NSW Premier Gladys Berejiklian says driving Covid-19 cases down to zero … [+2967 chars]"
+        }
+    ]
+}

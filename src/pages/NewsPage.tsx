@@ -1,11 +1,24 @@
-import { ReactElement } from "react"
+import { ReactElement, useContext } from "react"
+import HeadLinesList from "../components/news/headlines/HeadLinesList"
+import { NewsContext } from "../contexts/newsContext"
 
-const DashBoardPage = (): ReactElement => {
+
+const NewsPage = (): ReactElement => {
+
+
+
+
+
     return (
-        <> <h3> Latest Covid  news Page </h3></>
+        <>
+            <div className="alert"><h3 className="text-info text-center">
+                <h3 className="text-info text-center"> Covid News  </h3>
+                <HeadLinesList isTiny={false} />
+            </h3> </div>
+        </>
     )
 
 
 }
 
-export default DashBoardPage
+export default NewsPage

@@ -30,7 +30,8 @@ const MapWorldComponent = (): ReactElement => {
 
         <>
             <Grid item md={12} sm={12} xs={12}>
-                <WorldMap color="rgb(142 93 151)" title="World map showing active cases" data={countriesMapData} />
+                <h4>Hove over map to show active cases </h4>
+                <WorldMap color="rgb(142 93 151)" data={countriesMapData} />
             </Grid>
 
         </>
