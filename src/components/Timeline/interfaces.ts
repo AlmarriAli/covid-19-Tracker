@@ -1,18 +1,21 @@
 export interface TimeLineElementElement {
+    daily?: number,
+    total?: number
+    totalPerHundred?: number,
+    dailyPerMillion?: number
+    date?: string,
 
-    "updated_at": string,
-    "date": string,
-    "deaths": number,
-    "confirmed": number,
-    "recovered": number,
-    "new_confirmed": number,
-    "new_recovered": number,
-    "new_deaths": number,
-    "active": number
 }
-
 
 
 export interface TimeLineData {
     data: TimeLineElementElement[]
+}
+
+export interface ChronoItem {
+    title: string,
+    cardTitle?: string,
+    url?: string,
+    cardSubtitle?: string,
+    cardDetailedText?: string,
 }

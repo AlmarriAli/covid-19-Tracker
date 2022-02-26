@@ -5,7 +5,9 @@ import { useParams } from 'react-router-dom';
 import CountrySummaryBarChart from '../charts/CountrySummaryBarChart'
 import { IBarChartdatasets } from "../../interfaces/ChartData";
 import SkeletonBase from "../baseComponents/SkeletonBase";
-import TimeLineList from "../Timeline/TimeLineList";
+
+import ChronoList from "../Timeline/ChronoList";
+import { ChronoItem, TimeLineElementElement } from "../Timeline/interfaces";
 
 const CountryDetails = (): ReactElement => {
     const { code } = useParams();
@@ -14,18 +16,42 @@ const CountryDetails = (): ReactElement => {
     const [mapData, setMapData] = useState([]);
     const [timelineData, setTimeLineData] = useState([]);
     const [isloading, setIsloading] = useState<boolean>(false)
-    const [IsLinechart, setIsLinechart] = useState(false)
+
+
+
     const BaseAPIUrl = "https://corona-api.com/countries";
+    const vaccineCoverageUrl = "https://disease.sh/v3/covid-19/vaccine/coverage/countries"
+
 
     const fetchCountryData = async (code: string) => {
         const res = await fetch(`${BaseAPIUrl}/${code}`);
         const data = await res.json();
         setCountrydetails(data);
         setMapData(data.data.timeline.slice(0, 5));
-        setTimeLineData(data.data.timeline.slice(0, 10))
+
         return data
     }
+    const fetchVaccineData = async (code: string) => {
+        const res = await fetch(`${vaccineCoverageUrl}/${code}?lastdays=30&fullData=true`)
+        const data = await res.json();
+        setTimeLineData(data?.timeline)
+    }
+    console.log('timeLineData', timelineData)
 
+    const mapApiDataToChronoData = () => {
+        let dataItems: ChronoItem[] = [];
+        timelineData?.map((item: TimeLineElementElement) => {
+            const obj = { title: item.date, cardTitle: " Vaccine Doses", cardDetailedText: `Daily : ${item.daily}  |||  Total: ${item.total}` }
+            dataItems.push(obj as ChronoItem)
+            return obj
+        })
+        return dataItems
+    }
+
+    // data for timeline
+    const ChronoData = mapApiDataToChronoData()
+
+    // Data for charts 
     const labels = mapData.map((obj: any) => obj.date);
     const active = mapData.map((obj: any) => obj.active);
     const confirmed = mapData.map((obj: any) => obj.confirmed)
@@ -35,11 +61,10 @@ const CountryDetails = (): ReactElement => {
     const newConfirmed = mapData.map((obj: any) => obj.new_confirmed);
     const newRecovered = mapData.map((obj: any) => obj.new_recovered)
     const newDeaths = mapData.map((obj: any) => obj.new_deaths)
-
-    console.log('timelineData', timelineData)
     useEffect(() => {
         setIsloading(true)
         fetchCountryData(code!)
+        fetchVaccineData(code!.toLocaleLowerCase())
         setTimeout(() => {
             countryDetails ? setIsloading(false) : setIsloading(true)
         }, 1500)
@@ -117,9 +142,9 @@ const CountryDetails = (): ReactElement => {
 
 
 
+
     return (
         <>
-
             {isloading ? <SkeletonBase /> :
                 <> <h2 className="text-primary text-center">{countryDetails.data?.name} </h2>
                     <Grid container justifyContent="center" direction="row">
@@ -185,25 +210,19 @@ const CountryDetails = (): ReactElement => {
                             </Grid>
 
                         </Grid>
-                        <Grid item md={4} sm={12} xs={12} className="border  ">
+                        <Grid item md={3} sm={12} xs={12} className="border  ">
                             <Grid container justifyContent="center" direction="row">
                                 <Grid item md={12} sm={12} xs={12} className="border bg-dark text-secondary ">
                                     <span>last Update at : {new Date(countryDetails.data?.updated_at).toLocaleString()
                                     } </span>
                                 </Grid>
-                                <Grid style={{ maxHeight: 650, overflow: 'auto', direction: 'rtl', marginLeft: -100 }} item md={10} sm={12} xs={12} className=" text-warning scrollspy-example">
-                                    <h3 className="text-info"> TimeLine Data</h3>
-                                    <TimeLineList timeLineData={timelineData} />
-
+                                <Grid item md={12} style={{ maxHeight: 650, direction: 'rtl' }} sm={12} xs={12} className=" text-warning">
+                                    <h4 className="text-info text-center">  Vaccination Data</h4>
+                                    <ChronoList timeLineData={ChronoData} />
                                 </Grid>
                             </Grid>
                         </Grid>
-
-
                     </Grid>
-
-
-
 
                 </>}
         </>
