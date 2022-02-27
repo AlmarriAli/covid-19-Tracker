@@ -12,6 +12,7 @@ import CountriesContextProvider from './contexts/countriesContext';
 import CountryDetailsProvider from './contexts/CountryDetailsContext';
 import DashboardPage from './pages/DashboardPage';
 import NewsProvider from './contexts/newsContext';
+import RegionsProvider from './contexts/RegionsContext';
 
 
 const routes = {
@@ -36,17 +37,19 @@ function App() {
           <CountriesContextProvider>
             <CountryDetailsProvider>
               <NewsProvider>
-                <div className="App container-fluid">
-                  <Routes>
-                    <Route path={routes.base.path} element={<HomePage />}>  </Route>
-                    <Route path={routes.home.path} element={<HomePage />}>  </Route>
-                    <Route path={routes.dashobard.path} element={<DashboardPage />}>  </Route>
-                    <Route path={routes.regions.path} element={<RegionsPage />}>  </Route>
-                    <Route path={routes.countries.path} element={<CountriesPage />}>  </Route>
-                    <Route path={routes.countryDetails.path} element={<CountryDetails />}>  </Route>
-                    <Route path={routes.news.path} element={<NewsPage />}>  </Route>
-                  </Routes>
-                </div>
+                <RegionsProvider>
+                  <div className="App container-fluid">
+                    <Routes>
+                      <Route path={routes.base.path} element={<HomePage />}>  </Route>
+                      <Route path={routes.home.path} element={<HomePage />}>  </Route>
+                      <Route path={routes.dashobard.path} element={<DashboardPage />}>  </Route>
+                      <Route path={routes.regions.path} element={<RegionsPage />}>  </Route>
+                      <Route path={routes.countries.path} element={<CountriesPage />}>  </Route>
+                      <Route path={routes.countryDetails.path} element={<CountryDetails />}>  </Route>
+                      <Route path={routes.news.path} element={<NewsPage />}>  </Route>
+                    </Routes>
+                  </div>
+                </RegionsProvider>
               </NewsProvider>
             </CountryDetailsProvider>
           </CountriesContextProvider>
