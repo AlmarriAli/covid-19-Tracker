@@ -14,7 +14,7 @@ function RegionsList() {
 
     return (
         <>
-            <h3 className="text-info text-center"> Select a Region to show data   </h3>
+            <h3 className="text-warning bg-dark text-center p-2"> Select a Region to Show Data </h3>
             <Grid container justifyContent="center" direction="row">
                 {
                     regionsData && regionsData.map((region: RegionData) => {

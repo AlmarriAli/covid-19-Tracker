@@ -7,7 +7,7 @@ import { IBarChartdatasets } from "../../interfaces/ChartData";
 import SkeletonBase from "../baseComponents/SkeletonBase";
 
 import ChronoList from "../Timeline/ChronoList";
-import { ChronoItem, TimeLineElementElement } from "../Timeline/interfaces";
+import { ChronoItem, TimeLineElement } from "../Timeline/interfaces";
 
 const CountryDetails = (): ReactElement => {
     const { code } = useParams();
@@ -40,7 +40,7 @@ const CountryDetails = (): ReactElement => {
 
     const mapApiDataToChronoData = () => {
         let dataItems: ChronoItem[] = [];
-        timelineData?.map((item: TimeLineElementElement) => {
+        timelineData?.map((item: TimeLineElement) => {
             const obj = { title: item.date, cardTitle: " Vaccine Doses", cardDetailedText: `Daily : ${item.daily}  |||  Total: ${item.total}` }
             dataItems.push(obj as ChronoItem)
             return obj
@@ -218,7 +218,7 @@ const CountryDetails = (): ReactElement => {
                                 </Grid>
                                 <Grid item md={12} style={{ maxHeight: 650, direction: 'rtl' }} sm={12} xs={12} className=" text-warning">
                                     <h4 className="text-info text-center">  Vaccination Data</h4>
-                                    <ChronoList timeLineData={ChronoData} />
+                                    <ChronoList timeLineData={ChronoData} mode="VERTICAL" />
                                 </Grid>
                             </Grid>
                         </Grid>

@@ -2,9 +2,13 @@
 import { ChronoItem } from './interfaces'
 import { Chrono } from "react-chrono";
 import { ReactElement } from 'react'
+import { TimelineMode } from 'react-chrono/dist/models/TimelineModel';
+
+
 
 interface TimeLineListProps {
-    timeLineData: ChronoItem[]
+    timeLineData: ChronoItem[];
+    mode: TimelineMode
 }
 interface Theme {
     cardBgColor?: string;
@@ -23,11 +27,11 @@ const theme: Theme = {
     titleColor: "#97cdf3"
 }
 
-const ChronoList = ({ timeLineData }: TimeLineListProps): ReactElement => {
+const ChronoList = ({ timeLineData, mode }: TimeLineListProps): ReactElement => {
 
     return (
 
-        <Chrono items={timeLineData} mode="VERTICAL" slideShow slideItemDuration={1000} theme={theme} cardPositionHorizontal={"TOP"} allowDynamicUpdate />
+        <Chrono items={timeLineData} mode={mode} slideShow slideItemDuration={1000} theme={theme} cardPositionHorizontal={"TOP"} allowDynamicUpdate />
 
 
     )
