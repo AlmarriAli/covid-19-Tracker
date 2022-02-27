@@ -11,6 +11,21 @@ const RegionsEndpoint = "https://disease.sh/v3/covid-19/continents"
 const RegionsProvider = ({ children }: any) => {
     const [isRegionsLoading, setIsRegionsLoading] = useState<boolean>(false)
     const [regionsData, setRegionsData] = useState<RegionData[]>([])
+    const [regionCountries, setRegionCountries] = useState<string[]>([]);
+    const [selectedRegion, setSelectedRegion] = useState<RegionData>();
+
+
+    const handleSelect = (val: string) => {
+        const selectedRegion = regionsData.find((region) => {
+            return region.continent === val
+        })
+        console.log('selectedRegion', selectedRegion)
+        if (selectedRegion) {
+            setSelectedRegion(selectedRegion)
+            setRegionCountries(selectedRegion.countries)
+        }
+
+    }
 
     const fetchRegionsData = async (): Promise<RegionData[]> => {
         const res = await fetch(RegionsEndpoint)
@@ -30,7 +45,7 @@ const RegionsProvider = ({ children }: any) => {
 
 
     return (
-        <RegionsContext.Provider value={{ regionsData }} >
+        <RegionsContext.Provider value={{ regionsData, handleSelect, regionCountries, selectedRegion }} >
             {
                 isRegionsLoading ? <SkeletonBase /> : children
             }
