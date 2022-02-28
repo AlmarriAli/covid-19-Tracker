@@ -2,13 +2,16 @@ import { createContext, useEffect, useState } from "react"
 import SkeletonBase from "../components/baseComponents/SkeletonBase";
 import { IWorldData } from "../interfaces/worldData";
 
-export const WorldDataContext = createContext({});
+export const WorldDataContext = createContext<any>({});
 
 const WorldDataContextProvider = (props: any) => {
     const [worldData, setWorldData] = useState({})
+
     const [isLoading, setIsLoading] = useState(false)
 
     const WorldDataurl = "https://disease.sh/v3/covid-19/all"
+
+
 
     const fetchData = async (): Promise<IWorldData> => {
         const res = await fetch(WorldDataurl)
@@ -16,6 +19,9 @@ const WorldDataContextProvider = (props: any) => {
         setWorldData(data)
         return data
     }
+
+
+
     useEffect(() => {
         setIsLoading(true)
         fetchData()
@@ -25,7 +31,6 @@ const WorldDataContextProvider = (props: any) => {
         }, 1000)
 
     }, [])
-
 
     const { children } = props
     return (

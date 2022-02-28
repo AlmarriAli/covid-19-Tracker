@@ -3,6 +3,7 @@ import { WorldDataContext } from "../../contexts/worldCasesContext"
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
 import { IWorldData } from "../../interfaces/worldData";
+import { Grid } from "@mui/material";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -35,8 +36,13 @@ const WorldPieChart = () => {
     };
 
     return (
+        <>
+            <Grid className="text-info  text-center">
+                <span> Click on labels to filter chart data </span>
+            </Grid>
+            <Doughnut data={data} >  </Doughnut>
 
-        <Doughnut data={data} >  </Doughnut>
+        </>
 
 
 

@@ -18,17 +18,15 @@ const DashboardPage = () => {
     const fetchVaccineData = async () => {
         const res = await fetch(`${vaccineCoverageUrl}?lastdays=30&fullData=true`)
         const data = await res.json();
-        console.log('data', data)
+
         setTimeLineData(data)
     }
-    console.log('timeLineData', timelineData)
 
     const mapApiDataToChronoData = () => {
         let dataItems: ChronoItem[] = [];
         timelineData?.map((item: TimeLineElement) => {
             const obj = { title: item.date, cardTitle: `World Vaccine Doses on ${item.date}`, cardDetailedText: `Daily : ${item.daily}  |||  Total: ${item.total}` }
             dataItems.push(obj as ChronoItem)
-            console.log('obj :>> ', obj);
             return obj
         })
         return dataItems
@@ -42,7 +40,7 @@ const DashboardPage = () => {
         mapApiDataToChronoData()
         setTimeout(() => {
             timelineData ? setIsloading(false) : setIsloading(true)
-        }, 1500)
+        }, 1000)
 
     }, [])
 
@@ -61,9 +59,15 @@ const DashboardPage = () => {
                         <WorldPieChart></WorldPieChart>
                     </Grid>
                     <Grid item md={3} sm={6} xs={12} className="border">
-                        <WorldMultiBarChart />
-                        <WorldMultiBarChart />
-                        <WorldMultiBarChart />
+                        <Grid md={12} style={{ minHeight: 100 }}>
+                            <WorldMultiBarChart period={7} />
+                        </Grid>
+                        <Grid md={12} style={{ minHeight: 100 }}>
+                            <WorldMultiBarChart period={15} />
+                        </Grid>
+                        <Grid md={12} style={{ minHeight: 100 }}>
+                            <WorldMultiBarChart period={21} />
+                        </Grid>
                     </Grid>
                 </Grid>
                 <Grid container justifyContent="center" direction="row" >
@@ -73,9 +77,8 @@ const DashboardPage = () => {
                     }
                 </Grid>
             </Grid>
-
-
         </Grid>
+
     </>
 
 

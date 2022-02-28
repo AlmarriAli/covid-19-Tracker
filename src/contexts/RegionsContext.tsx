@@ -19,7 +19,7 @@ const RegionsProvider = ({ children }: any) => {
         const selectedRegion = regionsData.find((region) => {
             return region.continent === val
         })
-        console.log('selectedRegion', selectedRegion)
+
         if (selectedRegion) {
             setSelectedRegion(selectedRegion)
             setRegionCountries(selectedRegion.countries)

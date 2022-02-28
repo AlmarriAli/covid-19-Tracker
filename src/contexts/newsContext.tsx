@@ -49,7 +49,7 @@ const NewsProvider = ({ children }: any) => {
         getAllNews();
     }, [])
 
-    console.log('headLines :>> ', headLines);
+
     console.log('allNews', allNews)
     return (
         <>

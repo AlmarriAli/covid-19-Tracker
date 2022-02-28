@@ -7,10 +7,10 @@ import { ICountrydata } from "../../interfaces/CountryData";
 
 const MapWorldComponent = (): ReactElement => {
     const countriesData: ICountrydata = useContext(CountriesContext)
-    console.log("countriesData in maps component", countriesData)
+
 
     const [countriesMapData, setCountriesMapData] = useState([])
-    console.log("countriesData in maps", countriesData)
+
 
     const prepareDataForCountriesMap = () => {
         const formattedData: any = [];
