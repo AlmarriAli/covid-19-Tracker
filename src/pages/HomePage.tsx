@@ -8,7 +8,7 @@ const HomePage = () => {
     return (<>
         <Grid container justifyContent="center" direction="row">
             <div className="mt-3 h-100 d-inline-block">
-                <h2 className="text-info text-center">  World Data summary </h2>
+                <h2 className="text-info text-center" data-testid="home-title">  World Data summary </h2>
             </div>
 
             <Grid container justifyContent="center" direction="row">
