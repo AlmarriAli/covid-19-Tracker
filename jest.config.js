@@ -35,6 +35,7 @@ module.exports = {
     moduleDirectories: ['./node_modules', 'src'],
     moduleNameMapper: {
         '\\.css': 'identity-obj-proxy',
+        '\\.svg': 'identity-obj-proxy',
         "^image![a-zA-Z0-9$_-]+$": "GlobalImageStub",
         "^[./a-zA-Z0-9$_-]+\\.png$": "<rootDir>/RelativeImageStub.js",
         "App(.*)": 'identity-obj-proxy',

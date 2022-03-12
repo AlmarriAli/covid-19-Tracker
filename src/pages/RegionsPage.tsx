@@ -1,9 +1,7 @@
 import { Grid } from "@mui/material"
-import { useState, useContext } from "react";
 import RegionCountriesList from "../components/regions/RegionCountriesList";
-
 import RegionsList from "../components/regions/RegionsList"
-import { RegionsContext } from "../contexts/RegionsContext";
+
 
 const RegionsPage = () => {
 

@@ -10,7 +10,7 @@ interface HeadLinesListProps {
 
 function HeadLinesList({ isTiny }: HeadLinesListProps): ReactElement {
     const { headLines } = useContext(NewsContext)
-    if (!headLines.articles) {
+    if (!headLines?.articles) {
         return (<> "...loading articles" </>)
     }
     if (isTiny) {
@@ -22,7 +22,7 @@ function HeadLinesList({ isTiny }: HeadLinesListProps): ReactElement {
                 {
                     headLines.articles.slice(0, 10).map((article: Article) => {
                         return (
-                            <HeadLineTiny article={article} />
+                            <HeadLineTiny key={article.url} article={article} />
                         )
                     })
                 }

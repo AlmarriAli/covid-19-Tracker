@@ -2,7 +2,7 @@
 import './App.css';
 import HomePage from './pages/HomePage';
 import WorldDataContextProvider from './contexts/worldCasesContext';
-import Header from './components/baseComponents/Main-nav';
+import MainNav from './components/baseComponents/Main-nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NewsPage from './pages/NewsPage';
 import CountriesPage from './pages/CountriesPage';
@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <MainNav />
         <WorldDataContextProvider>
           <CountriesContextProvider>
             <CountryDetailsProvider>

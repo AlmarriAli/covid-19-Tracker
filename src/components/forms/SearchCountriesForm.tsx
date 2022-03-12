@@ -13,7 +13,7 @@ export default function SearchcountriesForm(props: SearchFormProps) {
         <>
             <form action="">
                 <div className="form-group">
-                    <input type="text" name="search" id="" className="form-control" onChange={(e) => handleSearch(e.target.value)} placeholder="Type country name to search " />
+                    <input data-testid="test-search-form" type="text" name="search" id="" className="form-control" onChange={(e) => handleSearch(e.target.value)} placeholder="Type country name to search " />
                 </div>
             </form>
         </>

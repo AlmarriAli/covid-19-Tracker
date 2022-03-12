@@ -45,7 +45,7 @@ const DashboardPage = () => {
     }, [])
 
     return (<>
-        <h2> Dashboard page</h2>
+        <h2 className="text-info text-center" dat-testid="test-dashboard-title"> Dashboard page</h2>
         <Grid container justifyContent="center" direction="row">
             <Grid item md={3} sm={12} xs={12} className="border">
                 <WorldDataSummary></WorldDataSummary>

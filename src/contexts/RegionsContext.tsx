@@ -30,7 +30,6 @@ const RegionsProvider = ({ children }: any) => {
     const fetchRegionsData = async (): Promise<RegionData[]> => {
         const res = await fetch(RegionsEndpoint)
         const data = await res.json()
-        console.log('data', data)
         setRegionsData(data);
         return data
     }

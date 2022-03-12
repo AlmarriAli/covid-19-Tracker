@@ -32,7 +32,7 @@ const CountriesList = (): ReactElement => {
 
                 {!countriesListData ? "...Getting Data" :
 
-                    countriesListData.map(country => <CountrySummary key={country.code} country={country} />)
+                    countriesListData.map(country => <CountrySummary key={country.code} country={country} data-testid={`test-country-card${country.name}`} />)
                 }
 
 

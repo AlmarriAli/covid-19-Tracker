@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import CountriesPage from '../pages/CountriesPage';
+import CountriesPage from '../CountriesPage';
 
 
 

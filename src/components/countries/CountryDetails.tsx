@@ -36,7 +36,7 @@ const CountryDetails = (): ReactElement => {
         const data = await res.json();
         setTimeLineData(data?.timeline)
     }
-    console.log('timeLineData', timelineData)
+
 
     const mapApiDataToChronoData = () => {
         let dataItems: ChronoItem[] = [];

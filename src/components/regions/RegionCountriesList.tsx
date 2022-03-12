@@ -19,7 +19,6 @@ const RegionCountriesList = () => {
         const matches = allCountriesData?.filter((country => {
             return regionCountries.indexOf(country.name) !== -1
         }))
-        console.log('matches :>> ', matches);
         setRegionCountriesList(matches!)
     }
 
@@ -34,16 +33,16 @@ const RegionCountriesList = () => {
         GetRegionCountriesData()
     }, [regionCountries])
 
-    if (regionCountriesList.length <= 0) {
+    if (regionCountriesList?.length <= 0) {
         return (
-            <h3 className='text-info text-center mt-3'> Please select a region to show data  </h3 >
+            <h3 className='text-info text-center mt-3' data-testid="title-region-countries-list"> Please select a region to show data  </h3 >
         )
     }
 
     return (
         <>
             <Grid container justifyContent="center" direction="row" m={2}>
-                <h3 className="text-info text-center"> Countries in {selectedRegion.continent}</h3>
+                <h3 className="text-info text-center" data-testid="title-region-countries-list"> Countries in {selectedRegion?.continent}</h3>
 
             </Grid>
             <Grid container justifyContent="center" direction="row" m={2}>
@@ -53,7 +52,7 @@ const RegionCountriesList = () => {
             </Grid>
             <Grid container justifyContent="center" direction="row">
 
-                {regionCountriesList.map((country: IData) => <CountrySummary key={country.code} country={country} />)}
+                {regionCountriesList?.map((country: IData) => <CountrySummary key={country.code} country={country} />)}
             </Grid>
         </>
     )

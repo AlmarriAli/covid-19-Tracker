@@ -50,7 +50,7 @@ const WorldMultiBarChart = ({ period }: WorldMultiBarChartProps): ReactElement =
         setisLoadingChart(true)
         setTimeout(() => {
             fetchHistoricalData(period)
-            console.log('chartData :>> ', chartData);
+
             setisLoadingChart(false)
         }, 1200)
 
@@ -113,7 +113,7 @@ const WorldMultiBarChart = ({ period }: WorldMultiBarChartProps): ReactElement =
     return (
         <>
             <Grid className="text-info bg-dark text-center">
-                <span className="text-info bg-dark text-center">  last {period} days  </span>
+                <span className="text-info bg-dark text-center" data-testid="test-world-multibar" >  last {period} days  </span>
             </Grid>
             <Chart type='bar' data={data} />
         </>
