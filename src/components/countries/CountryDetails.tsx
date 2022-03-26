@@ -37,7 +37,7 @@ const CountryDetails = (): ReactElement => {
         setTimeLineData(data?.timeline)
     }
 
-
+    // convert json data into array of object 
     const mapApiDataToChronoData = () => {
         let dataItems: ChronoItem[] = [];
         timelineData?.map((item: TimeLineElement) => {
@@ -48,7 +48,7 @@ const CountryDetails = (): ReactElement => {
         return dataItems
     }
 
-    // data for timeline
+    // data is ready for timeline 
     const ChronoData = mapApiDataToChronoData()
 
     // Data for charts 
