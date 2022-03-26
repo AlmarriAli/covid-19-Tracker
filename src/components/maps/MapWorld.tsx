@@ -7,10 +7,10 @@ import { ICountrydata } from "../../interfaces/CountryData";
 
 const MapWorldComponent = (): ReactElement => {
     const countriesData: ICountrydata = useContext(CountriesContext)
-    console.log("countriesData in maps component", countriesData)
+
 
     const [countriesMapData, setCountriesMapData] = useState([])
-    console.log("countriesData in maps", countriesData)
+
 
     const prepareDataForCountriesMap = () => {
         const formattedData: any = [];
@@ -30,7 +30,7 @@ const MapWorldComponent = (): ReactElement => {
 
         <>
             <Grid item md={12} sm={12} xs={12}>
-                <h4>Hove over map to show active cases </h4>
+                <h4 data-testid="test-map-world">Hover over map to show active cases </h4>
                 <WorldMap color="rgb(142 93 151)" data={countriesMapData} />
             </Grid>
 

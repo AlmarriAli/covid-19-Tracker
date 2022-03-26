@@ -7,7 +7,7 @@ import { IWorldData } from "../../interfaces/worldData";
 
 const WorldDataSummary = () => {
     const worldData: IWorldData = useContext(WorldDataContext)
-    // console.log("worldData", worldData);
+
 
     return (
         <>

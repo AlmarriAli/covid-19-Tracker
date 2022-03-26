@@ -7,9 +7,6 @@ export const CountryDetailscontext = createContext<any>({});
 
 const BaseAPIUrl = "https://corona-api.com/countries";
 
-
-
-
 const CountryDetailsProvider = ({ children }: any) => {
 
     const fetchCountryData = async (code: string) => {

@@ -1,4 +1,4 @@
-export interface TimeLineElementElement {
+export interface TimeLineElement {
     daily?: number,
     total?: number
     totalPerHundred?: number,
@@ -9,7 +9,7 @@ export interface TimeLineElementElement {
 
 
 export interface TimeLineData {
-    data: TimeLineElementElement[]
+    data: TimeLineElement[]
 }
 
 export interface ChronoItem {

@@ -8,8 +8,6 @@ import { WorldDataContext } from "../../contexts/worldCasesContext"
 function WorldDataDetails(): ReactElement {
     const worldData: IWorldData = useContext(WorldDataContext)
 
-    console.log('worldData', worldData)
-
     return (
         <>
             <Grid container justifyContent="center" direction="row" className="border bg-dark ">

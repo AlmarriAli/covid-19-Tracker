@@ -16,13 +16,13 @@ const CountriesList = (): ReactElement => {
             return country.name.toLowerCase().includes(val);
 
         })
-        console.log(`searchResult`, searchResult)
+
         setCountriesListData(searchResult)
 
     }
 
     return (
-        <> <h3 className="text-center text-info">Countries List</h3>
+        <> <h3 className="text-center text-info" data-testid="coutriesList-title">Countries List</h3>
             <Grid container justifyContent="center" direction="row" m={2}>
                 <Grid item md={8} sm={12} xs={12} className="border">
                     <SearchcountriesForm handleSearch={handleSearch} />
@@ -32,7 +32,7 @@ const CountriesList = (): ReactElement => {
 
                 {!countriesListData ? "...Getting Data" :
 
-                    countriesListData.map(country => <CountrySummary key={country.code} country={country} />)
+                    countriesListData.map(country => <CountrySummary key={country.code} country={country} data-testid={`test-country-card${country.name}`} />)
                 }
 
 
