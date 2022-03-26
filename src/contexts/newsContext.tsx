@@ -17,7 +17,7 @@ const NewsProvider = ({ children }: any) => {
     const headLinesEndpoint = "https://newsapi.org/v2/top-headlines"
     const allNewsEndpoint = "https://newsapi.org/v2/everything"
 
-    const category = 'health';
+
     const q = "covid-19"
 
 
