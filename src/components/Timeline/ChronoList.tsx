@@ -1,5 +1,5 @@
 
-import { ChronoItem, TimeLineElementElement } from './interfaces'
+import { ChronoItem } from './interfaces'
 import { Chrono } from "react-chrono";
 import { ReactElement } from 'react'
 

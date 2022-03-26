@@ -18,14 +18,18 @@ export const Header = (): ReactElement => {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
+                                <Link className="nav-link active" to="/dashboard">Dashboard</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/regions">Regions</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/countries">Countries</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/dashboard">News</Link>
+                                <Link className="nav-link active" to="/news">News</Link>
                             </li>
+
                         </ul>
                     </div>
                 </div>
