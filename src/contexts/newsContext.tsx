@@ -5,7 +5,7 @@ import { HeadLines } from "../components/news/interfaces";
 import mockHeadlines from "../mockdata/headlines.json"
 import mockAllNews from "../mockdata/allNews.json"
 
-export const NewsContext = createContext<any>({});
+export const NewsContext = createContext<any>(mockAllNews);
 
 
 const NewsProvider = ({ children }: any) => {
